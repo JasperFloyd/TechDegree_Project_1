@@ -27,7 +27,12 @@ var quotes = [
 /***
  * `getRandomQuote` function
 ***/
-
+function getRandomQuote(array){
+  let quoteIndex = Math.ceil(Math.random() * array.length);
+  let ranQuote =array[quoteIndex];
+  return rantQuote;
+  console.log(ranQuote);
+};
 
 
 /***
