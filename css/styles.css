@@ -52,7 +52,7 @@ h1 {
   width: 90%;
   max-width: 1024px;
   margin: auto;
-  padding: 5px;
+  padding: 2px;
 }
 
 .quote-box {
@@ -101,19 +101,7 @@ h1 {
   content: "—";
 }
 
-.citation {
-  font-style: italic;
-}
 
-.citation:before {
-  content: ", ";
-  font-style: normal;
-}
-
-.year:before {
-  content: ", ";
-  font-style: normal;
-}
 
 @media (min-width: 768px) {
   body {
@@ -163,4 +151,6 @@ h1 {
   .source {
     font-size: 1.25rem;
   }
+
+  
 }
