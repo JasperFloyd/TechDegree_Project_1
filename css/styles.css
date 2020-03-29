@@ -21,6 +21,17 @@ header {
   margin: auto;
   padding: 5px;
 }
+.source {
+  font-style: oblique;
+}
+
+.year{
+  position: relative;
+}
+
+.movie{
+  position: relative;
+}
 
 h1 {
   text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
